@@ -8,10 +8,9 @@ class WordFinder:
         text = open(words_file)
         self.list_of_words = [word.strip() for word in text]
 
-
     def random(self):
         ...
         return random.choice(self.list_of_words)
 
-test = WordFinder('words.txt')
-print(test.random())
+# test = WordFinder('words.txt')
+# print(test.random())
